@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shim4DotNetFramework.NativeLibrary", "src\Shim4DotNetFramework.NativeLibrary.csproj", "{B622235C-C401-442E-89AE-5480894CB02C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shim4DotNetFramework.NativeLibraryTest", "tests\Shim4DotNetFramework.NativeLibraryTest.csproj", "{6514D5A2-DE7A-454B-B790-296C7765AEC9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B622235C-C401-442E-89AE-5480894CB02C} = {B622235C-C401-442E-89AE-5480894CB02C}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B622235C-C401-442E-89AE-5480894CB02C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B622235C-C401-442E-89AE-5480894CB02C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B622235C-C401-442E-89AE-5480894CB02C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B622235C-C401-442E-89AE-5480894CB02C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6514D5A2-DE7A-454B-B790-296C7765AEC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6514D5A2-DE7A-454B-B790-296C7765AEC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6514D5A2-DE7A-454B-B790-296C7765AEC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6514D5A2-DE7A-454B-B790-296C7765AEC9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4D29DBFC-A947-4A03-B9C1-BC4392E82A32}
+	EndGlobalSection
+EndGlobal
